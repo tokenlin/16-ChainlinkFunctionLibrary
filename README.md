@@ -25,12 +25,12 @@ Chainlink是区块链预言机的龙头，其下的[chainlink-functions](https:/
 首批函数计划是实现solidity上的功能函数，包括但不限于如下：
 1. abi.encodePacked()
 2. abi.encode()
-3. keccak256()
+3. keccak256()-(by Kevin, on going)
 4. bytes => string
 5. string => bytes
 6. 各种类型的转换
-7. sign() and ecrecover()
-8. encrypt() and decrypt()
+7. sign() and ecrecover()-(by Kevin, on going)
+8. encrypt() and decrypt()-(by Kevin, on going)
 9. 其他...
 
 
