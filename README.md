@@ -5,7 +5,7 @@ Chainlink是区块链预言机的龙头，其下的[chainlink-functions](https:/
 
 有了JS的加持，chainlink-functions可以认作为是EVM的扩展，EVM的L2。如消耗gas的复杂逻辑运算等均可以交给chainlink-functions进行处理，大大节省主链的gas。可以说chainlink-functions会有非常广的发展空间。
 
-但是为了更安全运行，chainlink-functions对JS代码进行了限制.只能进行原生JS代码，不能引入包，这就意味着功能函数非常少。很多原本import下，一句代码就能解决的事，可能需要开发者用纯JS手搓个类似的函数来代替。这就意味着开发效率，开发质量可能大大降低。另外也对大大提高了chainlink-functions的入门门槛，非常不利chainlink-functions的推广。
+但是为了更安全运行，chainlink-functions对JS代码进行了限制.只能进行原生JS代码，不能引入包，这就意味着功能函数少。很多原本import下，一句代码就能解决的事，可能需要开发者用纯JS手搓个类似的函数来代替。这就意味着开发效率，开发质量可能降低。另外也对提高了chainlink-functions的入门门槛，不利chainlink-functions的推广。
 
 因此，本项目目标是建立一个chainlink-functions的JS标准库，把项目上会遇到的需要手搓的函数都标准化，方便开发者直接进行调用，而不用自己再开发该函数。此举也降低了入门门槛，使得新手也可以快速开发出高质量的产品。
 
@@ -39,3 +39,6 @@ Chainlink是区块链预言机的龙头，其下的[chainlink-functions](https:/
 
 ## 5. 激励
 我们秉持做开源免费的项目。当然，若有获得赞助，我们会根据大家的贡献发bounty。
+
+## 6. 社区支持
+Openbuild
